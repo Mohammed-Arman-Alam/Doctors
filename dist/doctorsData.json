@@ -1,0 +1,134 @@
+  [
+    {
+      "image": "/assets/doctor-sample.png",
+      "name": "Dr. Nadia Hossain",
+      "education": "MBBS, FCPS (Cardiology)",
+      "speciality": "Cardiologist",
+      "experience": "12+ Years",
+      "registrationNumber": "BMC102938",
+      "workplace": "Bangabandhu Sheikh Mujib Medical University (BSMMU), Dhaka",
+      "availability": ["Sunday", "Tuesday", "Thursday"],
+      "consultancyFee": 600
+    },
+    {
+      "image": "/assets/doctor-sample2.png",
+      "name": "Dr. Farhan Kabir",
+      "education": "MBBS, MS (Orthopedics)",
+      "speciality": "Orthopedic Surgeon",
+      "experience": "9+ Years",
+      "registrationNumber": "BMC847362",
+      "workplace": "Square Hospitals Ltd., Dhaka",
+      "availability": ["Monday", "Wednesday", "Friday"],
+      "consultancyFee": 550
+    },
+    {
+      "image": "/assets/doctor-sample.png",
+      "name": "Dr. Sabrina Ahmed",
+      "education": "MBBS, FCPS (Gynecology)",
+      "speciality": "Gynecologist",
+      "experience": "11+ Years",
+      "registrationNumber": "BMC564738",
+      "workplace": "United Hospital, Dhaka",
+      "availability": ["Sunday", "Monday", "Thursday"],
+      "consultancyFee": 700
+    },
+    {
+      "image": "/assets/doctor-sample2.png",
+      "name": "Dr. Tanvir Rahman",
+      "education": "MBBS, MD (Dermatology)",
+      "speciality": "Dermatologist",
+      "experience": "7+ Years",
+      "registrationNumber": "BMC918273",
+      "workplace": "Ibn Sina Specialized Hospital, Dhanmondi",
+      "availability": ["Tuesday", "Thursday", "Saturday"],
+      "consultancyFee": 450
+    },
+    {
+      "image": "/assets/doctor-sample.png",
+      "name": "Dr. Liyana Chowdhury",
+      "education": "MBBS, FCPS (Pediatrics)",
+      "speciality": "Pediatrician",
+      "experience": "10+ Years",
+      "registrationNumber": "BMC374829",
+      "workplace": "Popular Diagnostic Centre, Dhaka",
+      "availability": ["Monday", "Wednesday", "Saturday"],
+      "consultancyFee": 500
+    },
+    {
+      "image": "/assets/doctor-sample2.png",
+      "name": "Dr. Rezaul Karim",
+      "education": "MBBS, MS (General Surgery)",
+      "speciality": "General Surgeon",
+      "experience": "14+ Years",
+      "registrationNumber": "BMC283746",
+      "workplace": "Dhaka Medical College Hospital",
+      "availability": ["Sunday", "Tuesday", "Friday"],
+      "consultancyFee": 650
+    },
+    {
+      "image": "/assets/doctor-sample.png",
+      "name": "Dr. Mahira Sultana",
+      "education": "MBBS, FCPS (Neurology)",
+      "speciality": "Neurologist",
+      "experience": "8+ Years",
+      "registrationNumber": "BMC495839",
+      "workplace": "National Institute of Neurosciences & Hospital, Dhaka",
+      "availability": ["Wednesday", "Thursday", "Saturday"],
+      "consultancyFee": 400
+    },
+    {
+      "image": "/assets/doctor-sample2.png",
+      "name": "Dr. Imtiaz Hossain",
+      "education": "MBBS, MS (Urology)",
+      "speciality": "Urologist",
+      "experience": "10+ Years",
+      "registrationNumber": "BMC182736",
+      "workplace": "Apollo Hospitals Dhaka (Evercare)",
+      "availability": ["Monday", "Friday", "Saturday"],
+      "consultancyFee": 700
+    },
+    {
+      "image": "/assets/doctor-sample.png",
+      "name": "Dr. Afsana Karim",
+      "education": "MBBS, FCPS (Ophthalmology)",
+      "speciality": "Eye Specialist",
+      "experience": "9+ Years",
+      "registrationNumber": "BMC374920",
+      "workplace": "Chittagong Eye Infirmary and Training Complex",
+      "availability": ["Tuesday", "Wednesday", "Friday"],
+      "consultancyFee": 350
+    },
+    {
+      "image": "/assets/doctor-sample2.png",
+      "name": "Dr. Nahid Hasan",
+      "education": "MBBS, MD (Psychiatry)",
+      "speciality": "Psychiatrist",
+      "experience": "6+ Years",
+      "registrationNumber": "BMC273849",
+      "workplace": "National Institute of Mental Health, Dhaka",
+      "availability": ["Sunday", "Thursday", "Saturday"],
+      "consultancyFee": 500
+    },
+    {
+      "image": "/assets/doctor-sample.png",
+      "name": "Dr. Shamima Akter",
+      "education": "MBBS, FCPS (ENT)",
+      "speciality": "ENT Specialist",
+      "experience": "13+ Years",
+      "registrationNumber": "BMC839201",
+      "workplace": "Bangladesh ENT Hospital Ltd., Dhaka",
+      "availability": ["Monday", "Tuesday", "Friday"],
+      "consultancyFee": 600
+    },
+    {
+      "image": "/assets/doctor-sample2.png",
+      "name": "Dr. Rafiq Mahmud",
+      "education": "MBBS, MS (Neurosurgery)",
+      "speciality": "Neurosurgeon",
+      "experience": "15+ Years",
+      "registrationNumber": "BMC192837",
+      "workplace": "Combined Military Hospital (CMH), Dhaka",
+      "availability": ["Wednesday", "Thursday", "Sunday"],
+      "consultancyFee": 700
+    }
+  ]
