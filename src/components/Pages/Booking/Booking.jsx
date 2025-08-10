@@ -76,8 +76,11 @@ const Booking = () => {
         localStorage.setItem("bookedDoctors", data);
         setBookedDoctors(newDoc => newDoc.filter(doc =>doc.registrationNumber !==reg ));
     }
+    if(bookedDoctors.length){
     return (
+        
         <div className='w-10/12 mx-auto'>
+            
             <div className='bg-white rounded-xl mt-10 mb-16'>
                 <BarChart className='w-full'
                 width={1000}
@@ -85,15 +88,15 @@ const Booking = () => {
                 data={bookedDoctors}
                 margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
                 >
-  <CartesianGrid strokeDasharray="3 3" />
-  <XAxis dataKey="name" />
-  <YAxis />
-  <Bar dataKey="consultancyFee" fill="#8884d8" shape={<TriangleBar />} label={{ position: 'top' }}>
-    {bookedDoctors.map((doctor, index) => (
-      <Cell key={`cell-${index}`} fill={colors[index % colors.length]} />
-    ))}
-  </Bar>
-</BarChart>
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis dataKey="name" />
+              <YAxis />
+              <Bar dataKey="consultancyFee" fill="#8884d8" shape={<TriangleBar />} label={{ position: 'top' }}>
+                {bookedDoctors.map((doctor, index) => (
+                  <Cell key={`cell-${index}`} fill={colors[index % colors.length]} />
+                ))}
+              </Bar>
+            </BarChart>
             </div> 
             <div>
                 <h1 className='text-[40px] font-extrabold text-center my-3'>My Todays Appointments</h1>
@@ -101,7 +104,7 @@ const Booking = () => {
             </div>
             <div className='mx-auto'>
         
-                {   (bookedDoctors.length) ?( 
+                { 
                     bookedDoctors.map((doctor, index)=>
                     <div key={index} className='bg-white my-5 rounded-2xl p-6'>
                         <div className='flex justify-between'>
@@ -115,17 +118,26 @@ const Booking = () => {
                         </div>
                         <hr className='border-dashed border-[#0F0F0F20] my-3'/>
                         <button onClick={()=>handleCancelAppoinment(doctor.registrationNumber)} className='text-xl text-[#FF0000] font-semibold btn border-[#FF0000] rounded-4xl w-full'>cancel Appoinment</button>
-                    </div>)
-                ) :
-                <div className='w-4/12 mx-auto mt-10'>
-                    <Link to='/'><button className='btn w-full bg-[#176AE520] border-[#176AE570] rounded-4xl text-2xl font-bold text-[#176AE5]'>Back To Home</button></Link>
-                </div>
-                
-                
-                    
+                    </div>)          
                 }
             </div>
         </div>
-    );
+    );}
+    else{
+      return(
+        <>
+          <div className='mt-10'>
+              <h1 className='text-[40px] font-extrabold text-center my-3'>You Have not Booked any appointment yet</h1>
+              <p className='text-[16px] text-center'>Our platform connects you with verified, experienced doctors across various specialties — all at your convenience.</p>
+          </div>
+          <div className='w-4/12 mx-auto mt-10'>
+            <Link to='/'><button className='btn w-full bg-[#176AE520] border-[#176AE570] rounded-4xl text-2xl font-bold text-[#176AE5]'>Back To Home</button></Link>
+          </div>
+        </>
+      
+            
+            
+      );
+    }
 };
 export default Booking;
